@@ -366,6 +366,8 @@ home__img {
 }
 
 .logos__img img:hover{
+  padding: 20px;
+  margin: 20px;
   opacity: .5;
 }
 /*=============== POPULAR ===============*/
