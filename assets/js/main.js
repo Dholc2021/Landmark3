@@ -1,3 +1,9 @@
+// core version + navigation, pagination modules:
+import Swiper, { Navigation, Pagination } from 'swiper';
+// import Swiper and modules styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 /*=============== CHANGE BACKGROUND HEADER ===============*/
 const scrollHeader = () =>{
     const header = document.getElementById('header')
@@ -9,21 +15,11 @@ window.addEventListener('scroll', scrollHeader)
 
 
 /*=============== SWIPER POPULAR ===============*/
-  var swiperPopular = new Swiper(".popular__container", {
-        spaceBetween: 32,
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPreview: auto,
-        loop: true,
+ 
+
     
   
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-    
-
+/
 /*=============== VALUE ACCORDION ===============*/
 
 

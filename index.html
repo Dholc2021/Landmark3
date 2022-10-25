@@ -22,7 +22,55 @@
 
 <body>
     <!--==================== HEADER ====================-->
-    <header class="header" id="header">
+
+
+    <header class="header">
+      
+    
+        <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
+    
+        <nav class="nav" id="nav-menu">
+            <div class="nav__content bd-grid">
+    
+                <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
+    
+                <div class="nav__perfil">
+                   
+    
+                    <div>
+                        <img src="assets/img/logo-small.png" alt="">
+                      
+                    </div>
+                </div>
+    
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link"><i class='bx bxs-home-alt-2'></i><span>Home</span></a></li>                      
+                        <li class="nav__item"><a href="#popular" class="nav__link"><i class='bx bxs-building-house'></i><span>Properties</span></a></li>
+                        <li class="nav__item"><a href="#value" class="nav__link"><i class='bx bxs-plus-circle'></i><span>Sell</span></a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link"><i class='bx bxl-blogger'></i><span>Blog</span></a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link"><i class='bx bxs-phone'></i><span>Contact</span></a></li>
+                    </ul>
+                </div>
+    
+                <div class="nav__social">
+                    <a href="#" class="nav__social-icon">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                    <a href="#" class="nav__social-icon">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                    <a href="#" class="nav__social-icon">
+                        <ion-icon name="logo-behance"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <!-- <header class="header" id="header">
         <nav class="nav container">
             <a href="#" class="nav__logo">
                 <img src="assets/img/logo-small-125x75.png" alt="">
@@ -31,44 +79,20 @@
 
             <div class="nav__menu">
                 <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link">
-                            <i class='bx bxs-home-alt-2'></i>
-                            <span>Home</span>
-                        </a>
-                    </li>
+
+                    <li class="nav__item"><a href="#home" class="nav__link"><i class='bx bxs-home-alt-2'></i><span>Home</span></a></li>
 
 
-                    <li class="nav__item">
-                        <a href="#popular" class="nav__link">
-                            <i class='bx bxs-building-house'></i>
-                            <span>Properties</span>
-                        </a>
-                    </li>
+                    <li class="nav__item"><a href="#popular" class="nav__link"><i class='bx bxs-building-house'></i><span>Properties</span></a></li>
 
 
-                    <li class="nav__item">
-                        <a href="#value" class="nav__link">
-                            <i class='bx bxs-plus-circle'></i>
-                            <span>Sell</span>
-                        </a>
-                    </li>
+                    <li class="nav__item"><a href="#value" class="nav__link"><i class='bx bxs-plus-circle'></i><span>Sell</span></a></li>
 
 
-                    <li class="nav__item">
-                        <a href="#contact" class="nav__link">
-                            <i class='bx bxl-blogger'></i>
-                            <span>Blog</span>
-                        </a>
-                    </li>
+                    <li class="nav__item"><a href="#contact" class="nav__link"><i class='bx bxl-blogger'></i><span>Blog</span></a></li>
 
 
-                    <li class="nav__item">
-                        <a href="#contact" class="nav__link">
-                            <i class='bx bxs-phone'></i>
-                            <span>Contact</span>
-                        </a>
-                    </li>
+                    <li class="nav__item"><a href="#contact" class="nav__link"><i class='bx bxs-phone'></i><span>Contact</span></a></li>
                 </ul>
             </div>
             <div class="button nav__button">
@@ -77,7 +101,7 @@
                 </a>
             </div>
         </nav>
-    </header>
+    </header> -->
 
     <!--==================== MAIN ====================-->
     <main class="main">
@@ -170,113 +194,115 @@
             </section> -->
 
             <!--==================== POPULAR ====================-->
-            <section class="popular section" id="popular">
-                <div class="container">
-                    <span class="section__subtitle">Best Choice</span>
-                    <h2 class="section__title">
-                        Popular Properties
-                    </h2>
-
-                    <div class="popular__container swiper">
-                        <div class="swiper-wrapper">
-                            <article class="popular__card swiper-slider">
-                                <img src="assets/img/popular1.jpg" alt="" class="popular__img">
-                                <div class="popular__data">
-                                    <h2 class="popular__price">
-                                        <span>$</span>66,356
-                                    </h2>
-                                    <h3 class="popular__title">
-                                        Garden City of Assat
-                                    </h3>
-                                    <p class="popular__description">
-                                        Street The Garden City of Miraflores,
-                                        Lima - Peru Av. Sol #9876
-                                    </p>
-                                </div>
-                            </article>
-
-
-
-                            <article class="popular__card swiper-slider">
-                                <img src="assets/img/popular2.jpg" alt="" class="popular__img">
-                                <div class="popular__data">
-                                    <h2 class="popular__price">
-                                        <span>$</span>66,356
-                                    </h2>
-                                    <h3 class="popular__title">
-                                        Gables Luxurious House
-                                    </h3>
-                                    <p class="popular__description">
-                                        Street The Garden City of Miraflores,
-                                        Lima - Peru Av. Sol #9876
-                                    </p>
-                                </div>
-                            </article>
-
-
-
-                            <article class="popular__card swiper-slider">
-                                <img src="assets/img/popular3.jpg" alt="" class="popular__img">
-                                <div class="popular__data">
-                                    <h2 class="popular__price">
-                                        <span>$</span>62,024
-                                    </h2>
-                                    <h3 class="popular__title">
-                                        Luxurious City Garden
-                                    </h3>
-                                    <p class="popular__description">
-                                        Street The Garden City of Miraflores,
-                                        Lima - Peru Av. Sol #9876
-                                    </p>
-                                </div>
-                            </article>
-
-
-
-                            <article class="popular__card swiper-slider">
-                                <img src="assets/img/popular4.jpg" alt="" class="popular__img">
-                                <div class="popular__data">
-                                    <h2 class="popular__price">
-                                        <span>$</span>66,356
-                                    </h2>
-                                    <h3 class="popular__title">
-                                        Gables Luxurious House
-                                    </h3>
-                                    <p class="popular__description">
-                                        Street The Garden City of Miraflores,
-                                        Lima - Peru Av. Sol #9876
-                                    </p>
-                                </div>
-                            </article>
-
-
-
-                            <article class="popular__card swiper-slider">
-                                <img src="assets/img/popular5.jpg" alt="" class="popular__img">
-                                <div class="popular__data">
-                                    <h2 class="popular__price">
-                                        <span>$</span>75,043
-                                    </h2>
-                                    <h3 class="popular__title">
-                                        Garden Orchard City
-                                    </h3>
-                                    <p class="popular__description">
-                                        Street The Garden City of Miraflores,
-                                        Lima - Peru Av. Sol #9876
-                                    </p>
-                                </div>
-                            </article>
-                        </div>
-
-                        <div class="swiper-button-next">
-                            <i class="bx bx-chevron-right"></i>
-                        </div>
-                        <div class="swiper-button-prev">                        
-                            <i class="bx bx-chevron-left"></i>
-                        </div>
+            <div class="img-slider">
+                <div class="slide active">
+                    <img src="assets/img/carousel1-900x400.jpg" alt="">
+                    <div class="info">
+                        <h2>Example Property 1</h2>
+                        <p>12345 Fake St.
+                            Grenada, MS 38901</p>
                     </div>
                 </div>
-            </section>
+                <div class="slide">
+                    <img src="assets/img/carousel2-900x400.jpg" alt="">
+                    <div class="info">
+                        <h2>Example Property 2</h2>
+                        <p>12345 Fake St.
+                            Grenada, MS 38901</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="assets/img/carousel3-900x400.jpg" alt="">
+                    <div class="info">
+                        <h2>Example Property 3</h2>
+                        <p>12345 Fake St.
+                            Grenada, MS 38901</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="assets/img/post-2-900x400.jpg" alt="">
+                    <div class="info">
+                        <h2>Example Property 4</h2>
+                        <p>12345 Fake St.
+                            Grenada, MS 38901</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="assets/img/post-4-900x400.jpg" alt="">
+                    <div class="info">
+                        <h2>Example Property 5
+                        </h2>
+                        <p>
+                            12345 Fake St.
+                            Grenada, MS 38901
+                        </p>
+                    </div>
+                </div>
+
+                <div class="navigation">
+                    <div class="btn active"></div>
+                    <div class="btn"></div>
+                    <div class="btn"></div>
+                    <div class="btn"></div>
+                    <div class="btn"></div>
+                </div>
+            </div>
+
+            <script>
+                var slides = document.querySelectorAll('.slide');
+                var btns = document.querySelectorAll('.btn');
+                let currentSlide = 1;
+
+                // Javascript for image slider manual navigation
+                var manualNav = function (manual) {
+                    slides.forEach((slide) => {
+                        slide.classList.remove('active');
+
+                        btns.forEach((btn) => {
+                            btn.classList.remove('active');
+                        });
+                    });
+
+                    slides[manual].classList.add('active');
+                    btns[manual].classList.add('active');
+                }
+
+                btns.forEach((btn, i) => {
+                    btn.addEventListener("click", () => {
+                        manualNav(i);
+                        currentSlide = i;
+                    });
+                });
+
+                // Javascript for image slider autoplay navigation
+                var repeat = function (activeClass) {
+                    let active = document.getElementsByClassName('active');
+                    let i = 1;
+
+                    var repeater = () => {
+                        setTimeout(function () {
+                            [...active].forEach((activeSlide) => {
+                                activeSlide.classList.remove('active');
+                            });
+
+                            slides[i].classList.add('active');
+                            btns[i].classList.add('active');
+                            i++;
+
+                            if (slides.length == i) {
+                                i = 0;
+                            }
+                            if (i >= slides.length) {
+                                return;
+                            }
+                            repeater();
+                        }, 10000);
+                    }
+                    repeater();
+                }
+                repeat();
+            </script>
+
 
 
 
@@ -310,6 +336,12 @@
 
     <!--=============== SWIPER JS ===============-->
     <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!-- ===== IONICONS ===== -->
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
