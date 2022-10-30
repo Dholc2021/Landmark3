@@ -730,7 +730,7 @@ value__title{
 
 
   .value__description{
-    color: cyan;
+    color: #232087;
     font-family: 'Citzel', 'sans-serif';
     font-size: 2rem;
     margin-bottom: 2rem;
@@ -739,7 +739,7 @@ value__title{
 
   .accordion {
      background-color: #333;
-     color: cyan;
+     color: #232087                ;
      cursor: pointer;
      padding: 18px;
      width: 100%;
@@ -837,7 +837,7 @@ value__accordion_item {
   overflow: hidden;
   height: 0;
   transition: all .25s ease;; */
-}
+
 /*Rotate icon and add shadows*/
 
 .accordion-open {
