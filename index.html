@@ -1,107 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!--=============== FAVICON ===============-->
-    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
-
-    <!--=============== BOXICONS ===============-->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-    <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle-min.css">
-
-    <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/css/styles.css">
-
-    <title>Responsive real state website - Bedimcode</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" async defer></script>
 </head>
 
 <body>
-    <!--==================== HEADER ====================-->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav-branding"><img src="img/logo-small-125x75.png" alt=""></a>
 
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Properties</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+            </ul>
 
-    <header class="header">
-      
-    
-        <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
-    
-        <nav class="nav" id="nav-menu">
-            <div class="nav__content bd-grid">
-    
-                <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
-    
-                <div class="nav__perfil">
-                   
-    
-                    <div>
-                        <img src="assets/img/logo-small.png" alt="">
-                      
-                    </div>
-                </div>
-    
-                <div class="nav__menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link"><i class='bx bxs-home-alt-2'></i><span>Home</span></a></li>                      
-                        <li class="nav__item"><a href="#popular" class="nav__link"><i class='bx bxs-building-house'></i><span>Properties</span></a></li>
-                        <li class="nav__item"><a href="#value" class="nav__link"><i class='bx bxs-plus-circle'></i><span>Sell</span></a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link"><i class='bx bxl-blogger'></i><span>Blog</span></a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link"><i class='bx bxs-phone'></i><span>Contact</span></a></li>
-                    </ul>
-                </div>
-    
-                <div class="nav__social">
-                    <a href="#" class="nav__social-icon">
-                        <ion-icon name="logo-linkedin"></ion-icon>
-                    </a>
-                    <a href="#" class="nav__social-icon">
-                        <ion-icon name="logo-github"></ion-icon>
-                    </a>
-                    <a href="#" class="nav__social-icon">
-                        <ion-icon name="logo-behance"></ion-icon>
-                    </a>
-                </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
+
         </nav>
     </header>
-
-
-
-    <!-- <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav__logo">
-                <img src="assets/img/logo-small-125x75.png" alt="">
-            </a>
-
-
-            <div class="nav__menu">
-                <ul class="nav__list">
-
-                    <li class="nav__item"><a href="#home" class="nav__link"><i class='bx bxs-home-alt-2'></i><span>Home</span></a></li>
-
-
-                    <li class="nav__item"><a href="#popular" class="nav__link"><i class='bx bxs-building-house'></i><span>Properties</span></a></li>
-
-
-                    <li class="nav__item"><a href="#value" class="nav__link"><i class='bx bxs-plus-circle'></i><span>Sell</span></a></li>
-
-
-                    <li class="nav__item"><a href="#contact" class="nav__link"><i class='bx bxl-blogger'></i><span>Blog</span></a></li>
-
-
-                    <li class="nav__item"><a href="#contact" class="nav__link"><i class='bx bxs-phone'></i><span>Contact</span></a></li>
-                </ul>
-            </div>
-            <div class="button nav__button">
-                <a href="#" class="button nav__button">
-                    Subscribe
-                </a>
-            </div>
-        </nav>
-    </header> -->
 
     <!--==================== MAIN ====================-->
     <main class="main">
@@ -111,10 +52,13 @@
         <!--==================== HOME ====================-->
 
         <section class="home section" id="home">
+
             <div class="home__container container grid">
                 <div class="home__data">
+
+
                     <h1 class="home__title">
-                        <span>Find Your<br>Dream Home <br>With Ease!</span>
+                        <span>Welcome to <br> Landmark Realty</span>
                         </hl>
                         <p class="home__description">
                             Search the full listing of homes available now!
@@ -128,29 +72,23 @@
                             <!--Container For All Cards-->
                             <div>
                                 <!-- Container for 1st individual Card-->
-                                <h1 class="home__value-number">
-                                    9K <span>+</span>
-                                </h1>
+
                                 <span class="home__value-description">
-                                    Premium <br> Product
+                                    Premium <br> Properties
                                 </span>
                             </div>
                             <!--End Container for 1st indiv. card -->
                             <div>
                                 <!-- Container for 2nd individual Card-->
-                                <h1 class="home__value-number">
-                                    2K <span>+</span>
-                                </h1>
+
                                 <span class="home__value-description">
-                                    Happy <br> Customer
+                                    Happy <br> Customers
                                 </span>
                             </div>
                             <!--End Container for 2nd indiv. card -->
                             <div>
                                 <!-- Container for 3rd individual Card-->
-                                <h1 class="home__value-number">
-                                    28K <span>+</span>
-                                </h1>
+
                                 <span class="home__value-description">
                                     Award <br> Winning
                                 </span>
@@ -159,44 +97,31 @@
                         </div>
                         <!--End COntainer for all Cards -->
                 </div><!-- End of home data-->
-                <div class="home__images">
-                    <div class="home__orbe">
-                        <div class="home__img">
-                            <img src="assets/img/home.jpg" alt="">
-                        </div>
-                    </div><!-- End of home__img-->
 
-                </div><!-- End of home__images-->
+            </div>
+            </div><!-- End of home__img-->
+
+            </div><!-- End of home__images-->
 
 
             </div>
             <!--End home container-->
-            </sction> <!-- End of home section-->
 
 
 
-            <!--==================== LOGOS ====================-->
-            <!-- <section class="logos section">
-                <div class="logos__container container grid">
-                    <div class="logos__img">
-                        <img src="assets/img/logo1.png" alt="">
-                    </div>
-                    <div class="logos__img">
-                        <img src="assets/img/logo2.png" alt="">
-                    </div>
-                    <div class="logos__img">
-                        <img src="assets/img/logo3.png" alt="">
-                    </div>
-                    <div class="logos__img">
-                        <img src="assets/img/logo4.png" alt="">
-                    </div>
-                </div>
-            </section> -->
+        </section> <!-- End of home section-->
 
-            <!--==================== POPULAR ====================-->
+
+
+
+        <!--==================== POPULAR ====================-->
+        <section id="slider" class="slider">
+            <div class="slider__title">
+                <h1>Popular Properties</h1>
+            </div>
             <div class="img-slider">
                 <div class="slide active">
-                    <img src="assets/img/carousel1-900x400.jpg" alt="">
+                    <img src="img/carousel1-900x400.jpg" alt="">
                     <div class="info">
                         <h2>Example Property 1</h2>
                         <p>12345 Fake St.
@@ -204,7 +129,7 @@
                     </div>
                 </div>
                 <div class="slide">
-                    <img src="assets/img/carousel2-900x400.jpg" alt="">
+                    <img src="img/carousel2-900x400.jpg" alt="">
                     <div class="info">
                         <h2>Example Property 2</h2>
                         <p>12345 Fake St.
@@ -212,7 +137,7 @@
                     </div>
                 </div>
                 <div class="slide">
-                    <img src="assets/img/carousel3-900x400.jpg" alt="">
+                    <img src="img/carousel3-900x400.jpg" alt="">
                     <div class="info">
                         <h2>Example Property 3</h2>
                         <p>12345 Fake St.
@@ -220,7 +145,7 @@
                     </div>
                 </div>
                 <div class="slide">
-                    <img src="assets/img/post-2-900x400.jpg" alt="">
+                    <img src="img/post-2-900x400.jpg" alt="">
                     <div class="info">
                         <h2>Example Property 4</h2>
                         <p>12345 Fake St.
@@ -228,7 +153,7 @@
                     </div>
                 </div>
                 <div class="slide">
-                    <img src="assets/img/post-4-900x400.jpg" alt="">
+                    <img src="img/post-4-900x400.jpg" alt="">
                     <div class="info">
                         <h2>Example Property 5
                         </h2>
@@ -247,79 +172,168 @@
                     <div class="btn"></div>
                 </div>
             </div>
+        </section>
 
-            <script>
-                var slides = document.querySelectorAll('.slide');
-                var btns = document.querySelectorAll('.btn');
-                let currentSlide = 1;
+        <script>
+            var slides = document.querySelectorAll('.slide');
+            var btns = document.querySelectorAll('.btn');
+            let currentSlide = 1;
 
-                // Javascript for image slider manual navigation
-                var manualNav = function (manual) {
-                    slides.forEach((slide) => {
-                        slide.classList.remove('active');
+            // Javascript for image slider manual navigation
+            var manualNav = function (manual) {
+                slides.forEach((slide) => {
+                    slide.classList.remove('active');
 
-                        btns.forEach((btn) => {
-                            btn.classList.remove('active');
-                        });
-                    });
-
-                    slides[manual].classList.add('active');
-                    btns[manual].classList.add('active');
-                }
-
-                btns.forEach((btn, i) => {
-                    btn.addEventListener("click", () => {
-                        manualNav(i);
-                        currentSlide = i;
+                    btns.forEach((btn) => {
+                        btn.classList.remove('active');
                     });
                 });
 
-                // Javascript for image slider autoplay navigation
-                var repeat = function (activeClass) {
-                    let active = document.getElementsByClassName('active');
-                    let i = 1;
+                slides[manual].classList.add('active');
+                btns[manual].classList.add('active');
+            }
 
-                    var repeater = () => {
-                        setTimeout(function () {
-                            [...active].forEach((activeSlide) => {
-                                activeSlide.classList.remove('active');
-                            });
+            btns.forEach((btn, i) => {
+                btn.addEventListener("click", () => {
+                    manualNav(i);
+                    currentSlide = i;
+                });
+            });
 
-                            slides[i].classList.add('active');
-                            btns[i].classList.add('active');
-                            i++;
+            // Javascript for image slider autoplay navigation
+            var repeat = function (activeClass) {
+                let active = document.getElementsByClassName('active');
+                let i = 1;
 
-                            if (slides.length == i) {
-                                i = 0;
-                            }
-                            if (i >= slides.length) {
-                                return;
-                            }
-                            repeater();
-                        }, 10000);
-                    }
-                    repeater();
+                var repeater = () => {
+                    setTimeout(function () {
+                        [...active].forEach((activeSlide) => {
+                            activeSlide.classList.remove('active');
+                        });
+
+                        slides[i].classList.add('active');
+                        btns[i].classList.add('active');
+                        i++;
+
+                        if (slides.length == i) {
+                            i = 0;
+                        }
+                        if (i >= slides.length) {
+                            return;
+                        }
+                        repeater();
+                    }, 10000);
                 }
-                repeat();
-            </script>
+                repeater();
+            }
+            repeat();
+        </script>
 
 
 
 
-            <!--==================== VALUE ====================-->
-            <section class="value section" id="value">
+        <!--==================== VALUE ====================-->
+        <section class="value value__section" id="value">
+            <div class="value__container container grid">
+                <div class="value__images">
 
-            </section>
 
-            <!--==================== CONTACT ====================-->
-            <section class="contact section" id="contact">
+                    <div class="value__img">
+                        <img class="keyhole" src="img/home.jpg" alt="">
+                    </div>
+                </div>
 
-            </section>
+                <div class="value__content">
+                    <div class="value__data">
 
-            <!--==================== SUBSCRIBE ====================-->
-            <section class="subscribe section">
+                        <span class="section__subtitle">Our Value</span>
+                        <h2 class="section__title">
+                            What We Offer To You <span>.</span>
+                        </h2>
+                        <p class="value__description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Officiis consequuntur iusto saepe, vitae voluptatem tenetur
+                            voluptatum illo veritatis nobis assumenda at incidunt facere
+                            hic fugit repudiandae eveniet beatae odit deleniti sint placeat modi.
+                        </p>
+                    </div>
 
-            </section>
+                    <!----------------------------- Begin Value Accorian ------------------------------------------>
+
+
+
+
+
+                    <h2>Accordion</h2>
+
+                    <button class="accordion">Best Rates on the Market.<em>(click to see more)</em></button>
+                    <div class="panel">
+                        <p class="accordion-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore
+                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                            aliquip
+                            ex ea commodo
+                            consequat.</p>
+                    </div>
+
+                    <button class="accordion">No Unexpected Charges.<em>(click to see more)</em></button>
+                    <div class="panel">
+                        <p class="accordion-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore
+                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                            aliquip
+                            ex ea commodo
+                            consequat.</p>
+                    </div>
+
+                    <button class="accordion">We Keep Your Data Private!<em>(click to see more)</em></button>
+                    <div class="panel">
+                        <p class="accordion-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore
+                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                            aliquip
+                            ex ea commodo
+                            consequat.</p>
+                    </div>
+
+
+
+                    <script> var acc = document.getElementsByClassName("accordion");
+                        var i;
+
+                        for (i = 0; i < acc.length; i++) {
+                            acc[i].addEventListener("click", function () {
+                                this.classList.toggle("active");
+                                var panel = this.nextElementSibling;
+                                if (panel.style.display === "block") {
+                                    panel.style.display = "none";
+                                } else {
+                                    panel.style.display = "block";
+                                }
+                            });
+                        }</script>
+
+
+
+
+
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section" id="contact">
+
+        </section>
+
+        <!--==================== SUBSCRIBE ====================-->
+        <section class="subscribe section">
+
+        </section>
     </main>
 
     <!--==================== FOOTER ====================-->
@@ -332,19 +346,18 @@
 
 
     <!--=============== SCROLLREVEAL ===============-->
-    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="scrollreveal.min.js"></script>
 
     <!--=============== SWIPER JS ===============-->
-    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="swiper-bundle.min.js"></script>
 
     <!-- ===== IONICONS ===== -->
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
-    
-    <!--===== MAIN JS =====-->
-    <script src="assets/js/main.js"></script>
 
-    <!--=============== MAIN JS ===============-->
-    <script src="assets/js/main.js"></script>
+
+
+    <script src="main.js" defer></script>
+
 </body>
 
 </html>
