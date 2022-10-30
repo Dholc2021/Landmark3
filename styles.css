@@ -69,7 +69,7 @@ html {
 body {
   font-family: "Cinzel", "sans-serif"; 
   font-size: var(--normal-font-size);
-  background-color: #333;
+  background-color: #000;
   color: var(--text-color);
   transition: .3s; /* For animation dark mode */
 }
@@ -134,17 +134,19 @@ button {
 }
 
 .section__title {
-  font-size: var(--h2-font-size);
+  color: #232087;
+  font-size: 4rem;
   margin-bottom: 1rem;
 }
 
 .section__title span {
-  color: #232087;
+  color: 232087;
 }
 
 .section__subtitle {
+  color: cyan;
   display: block;
-  font-size: var(--small-font-size);
+  font-size:4rem;
   color: var(--second-color);
 }
 
@@ -203,7 +205,7 @@ a {
 
 /*===== NAV =====*/
 header{
-    background-color: #262626;
+    background-color: #000;
 }
 
 
@@ -212,8 +214,8 @@ li{
 }
 
 .nav-a{
-    color: white;
-    text-decoration: none;
+    color: #232087;
+     text-decoration: none;
 
 }
 
@@ -237,8 +239,8 @@ li{
 
 .nav-link{
   color: white;
-  transition: 0.7s ease;
-  z-index: 1;
+    transition: 0.7s ease;
+    z-index: 1;
 }
 .nav-link:hover{
     color: dodgerblue;
@@ -303,7 +305,7 @@ li{
   background-image: url("img/ciudad-maderas-MXbM1NrRqtI-unsplash-2000x1000.jpg");
  background-size: cover;
  background-repeat: no-repeat;
- background-color: #333;
+ background-color: #000;
  margin: 0 auto;
  justify-content: center;
  text-align: center;
@@ -340,6 +342,7 @@ li{
   font-family: 'Cinzel','sans-serif';
   font-weight: 200;
   margin: 0 auto;
+  font-size: rem;
   color: cyan;
   width: 35%;
   margin-bottom: 20vh;
@@ -348,7 +351,7 @@ li{
 .home__title p{
   font-family: 'Cinzel', 'sans-serif';
   font-size: 2rem;
-  color: white;
+  color: cyan;
 } 
 .home__description {
   color: var(--text-color-light);
@@ -475,8 +478,8 @@ li{
   margin: 0 auto;
   text-align: center;
   font-family: 'Cinzel', 'sans-serif';
-  font-size: 3rem;
-  color: white;
+  font-size: 4rem;
+  color: cyan;
 }
 .img-slider .slide{
   z-index: 1;
@@ -727,6 +730,7 @@ value__title{
 
 
   .value__description{
+    color: cyan;
     font-family: 'Citzel', 'sans-serif';
     font-size: 2rem;
     margin-bottom: 2rem;
@@ -734,8 +738,8 @@ value__title{
 
 
   .accordion {
-     background-color: #eee;
-     color: #232087;
+     background-color: #333;
+     color: cyan;
      cursor: pointer;
      padding: 18px;
      width: 100%;
@@ -745,8 +749,13 @@ value__title{
      font-size: 2rem;
      transition: 0.4s;
                         }
+
+  .accordion-h2{
+    font-size: 4rem;
+    padding-bottom: 2rem;
+  }
                     
-  .accordian.active,
+  .accordion.active,
   .accordion:hover {
      background-color: #ccc;
      }
@@ -764,8 +773,8 @@ value__title{
       overflow: hidden;
   }
                     
-
-  /* .value__accordion {
+/* 
+  .value__accordion {
     display: grid;
     row-gap: 1.5rem;;
   }
@@ -827,25 +836,25 @@ value__accordion_item {
 .value__accordion-content {
   overflow: hidden;
   height: 0;
-  transition: all .25s ease;;
+  transition: all .25s ease;; */
 }
-/*Rotate icon and add shadows
+/*Rotate icon and add shadows*/
 
 .accordion-open {
-  box-shadow: 0 12px, 32px hsla(228, 66%, 45%, .1 );
+  box-shadow: 0 12px, 32px #232087;
 
 }
-.accordion-open .value__accordian-icon {
-  box-shadow: 0 4px, 4px hsla(228, 66%, 45%, .1 );
+.accordion-open .value__accordion-icon {
+  box-shadow: 0 4px, 4px #232087;
 
 }
-.accordion-open .value__accordian-arrow {
-  box-shadow: 0 2px, 4px hsla(228, 66%, 45%, .1 );
+.accordion-open .value__accordion-arrow {
+  box-shadow: 0 2px, 4px #232087;
 
 }
-.accordion-open .value__accordian-arrow i{
+.accordion-open .value__accordion-arrow i{
   transform: rotate(-180deg);
-} */
+}
 
 
 /*=============== CONTACT ===============*/
